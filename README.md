@@ -11,7 +11,7 @@ A concurrent seat reservation backend built with Java and Spring Boot.
 - Maven
 - Micrometer
 - Prometheus
-
+[app](src/main/java/com/booking/app)
 ## Core Guarantees
 
 - No double-selling of seats
