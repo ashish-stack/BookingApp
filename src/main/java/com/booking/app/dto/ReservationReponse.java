@@ -1,4 +1,14 @@
 package com.booking.app.dto;
 
-public class ReservationReponse {
+import java.util.List;
+import java.util.UUID;
+
+public record ReservationReponse(
+        UUID reservationId,
+        UUID show_id,
+        String user_id,
+        List<String> seats,
+        long amount_paise,
+        String status
+) {
 }
