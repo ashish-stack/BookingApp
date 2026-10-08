@@ -1,4 +1,10 @@
 package com.booking.app.exception;
 
-public class NotFoundException {
+import org.springframework.http.HttpStatus;
+
+public class NotFoundException extends BookingException {
+
+    public NotFoundException(String message) {
+        super(HttpStatus.NOT_FOUND, message);
+    }
 }
