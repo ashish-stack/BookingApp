@@ -3,7 +3,7 @@ package com.booking.app.dto;
 import java.util.List;
 import java.util.UUID;
 
-public record ReservationReponse(
+public record ReservationResponse(
         UUID reservationId,
         UUID show_id,
         String user_id,
